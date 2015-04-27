@@ -1,11 +1,11 @@
-.items {
-  background: red;
+.item:nth-child(2) h2 {
+  color: red;
 }
 
-h2 {
-  color: blue;
-}
-
-.items h2 {
+.item:nth-child(3) h2 {
   color: green;
+}
+
+.item:nth-child(4) h2 {
+  color: blue;
 }
