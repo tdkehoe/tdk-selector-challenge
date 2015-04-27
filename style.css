@@ -1,0 +1,11 @@
+.items {
+  background: red;
+}
+
+h2 {
+  color: blue;
+}
+
+.items h2 {
+  color: green;
+}
