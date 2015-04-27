@@ -1,11 +1,11 @@
-.items {
-  background: red;
+.items > div:first-of-type {
+  color: red;
 }
 
-h2 {
-  color: blue;
-}
-
-.items h2 {
+.items > div:nth-of-type(2) {
   color: green;
+}
+
+.items > div:last-of-type {
+  color: blue;
 }
