@@ -1,5 +1,5 @@
 .items {
-  background: red;
+  background: white;
 }
 
 h2 {
@@ -8,4 +8,18 @@ h2 {
 
 .items h2 {
   color: green;
+}
+.items :nth-child(2) h2{
+  color:red;
+
+}
+
+.items :nth-child(3) h2{
+  color:green;
+
+}
+
+.items :nth-child(4) h2{
+  color:blue;
+
 }
